@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+    width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    display: flex;
+}
+
+.app{
+  @apply mx-16 relative sm:px-14 flex flex-col
+}
+
+.head_text {
+    @apply mt-10 mb-12 text-5xl font-bold sm:text-5xl
+  }
+  
+  .nav_text {
+    @apply text-lg font-bold
+  }
+
+  .nav_link {
+    @apply text-gray-400 hover:font-bold hover:text-red-400 hover:duration-150 hover:border-b-4 border-red-400
+  }
