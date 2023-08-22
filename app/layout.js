@@ -1,8 +1,6 @@
 import '../styles/globals.css';
 import Nav from "@components/Nav"
 
-import { Inter } from 'next/font/google'
-
 export const metadata = {
   title: 'Salvador Xe - Product Designer',
   description: 'Product Design Portolfio',

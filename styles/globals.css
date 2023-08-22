@@ -11,8 +11,21 @@
     display: flex;
 }
 
+.card_container {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  background-color: #FFFDFA;
+  box-shadow: 0px 2px 6px #999;
+}
+
+.card_text {
+  margin: 1rem;
+}
+
 .app{
-  @apply mx-16 relative sm:px-14 flex flex-col
+  @apply mx-16 relative flex flex-col
 }
 
 .head_text {
@@ -24,5 +37,9 @@
   }
 
   .nav_link {
-    @apply text-gray-400 hover:font-bold hover:text-red-400 hover:duration-150 hover:border-b-4 border-red-400
+    @apply text-main-black font-bold active:text-red-400
+  }
+
+  .desc {
+    @apply leading-tight text-[#848484]
   }

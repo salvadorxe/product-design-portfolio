@@ -1,9 +1,11 @@
 import Projects from '@/components/Projects'
+import About from '@components/About'
 import React from 'react'
 
 const Home = () => {
   return (
     <section className="w-full flex-center flex-col">
+      {/* Header */}
       <h1 className="head_text text-red-400 text-left">
         Salvador Antonio
         <br />
@@ -13,6 +15,7 @@ const Home = () => {
       </h1>
       {/* Projects */}
       <Projects />
+      <About />
     </section>
   )
 }
