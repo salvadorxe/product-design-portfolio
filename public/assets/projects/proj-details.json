@@ -1,0 +1,22 @@
+{
+    "projects":[
+        {
+            "id": 1,
+            "title": "Network Tree",
+            "desc": "A centralized network management platform to help users get the most out of their network.",
+            "img" : "../assets/projects/network-tree.png"
+        },
+        {
+            "id": 2,
+            "title": "Tripsy",
+            "desc": "An application for group travelers to share, vote, and decide on trip itinerary items.",
+            "img" : "../assets/projects/tripsy.png"
+        },
+        {
+            "id": 3,
+            "title": "Other Work",
+            "desc": "Take a look through some of my personal projects. UI challenges, design work, etc.",
+            "img" : "../assets/projects/tripsy.png"
+        }
+    ]
+}
