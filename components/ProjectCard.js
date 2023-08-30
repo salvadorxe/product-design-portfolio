@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import projData from '../public/assets/projects/proj-details.json'
 import { FaArrowRight } from "react-icons/fa6";
 
@@ -16,11 +17,11 @@ const ProjectCard = () => {
             <h1 className='nav_text pt-2 pb-2'>{proj.title}</h1>
             <p className='desc pb-2'>{proj.desc}</p>
               <div>
-                <a className='flex items-center text-main-black font-bold' href='#'>View 
+                <Link className='flex items-center text-main-black font-bold' href={`${proj.link}`}>View 
                   <div className='pl-2'>
                     <FaArrowRight />
                   </div>
-                </a>
+                </Link>
               </div>
         </div>
       </div>

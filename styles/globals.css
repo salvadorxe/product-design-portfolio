@@ -28,8 +28,12 @@
   @apply mx-16 relative flex flex-col
 }
 
-.head_text {
-    @apply mt-10 mb-12 text-5xl font-bold sm:text-5xl
+.head_text{
+  @apply mt-10 mb-12 text-5xl font-bold sm:text-5xl
+}
+  
+  .head_text2 {
+    @apply mt-0 mb-0 text-5xl font-bold sm:text-5xl
   }
   
   .nav_text {
