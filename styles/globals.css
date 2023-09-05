@@ -33,7 +33,7 @@
 }
   
   .head_text2 {
-    @apply mt-0 mb-0 text-5xl font-bold sm:text-5xl
+    @apply text-2xl font-bold sm:text-5xl my-4
   }
   
   .nav_text {
@@ -46,4 +46,16 @@
 
   .desc {
     @apply leading-tight text-[#848484]
+  }
+
+  .secHead {
+    @apply tracking-wider uppercase text-[#848484] font-bold pb-4
+  }
+
+  .insight {
+    @apply text-3xl sm:text-5xl leading-snug
+  }
+
+  .secDesc {
+    @apply mt-8 leading-relaxed
   }

@@ -4,7 +4,7 @@
             "id": 1,
             "title": "Network Tree",
             "desc": "A centralized network management platform to help users get the most out of their network.",
-            "img" : "../assets/projects/network-tree.png",
+            "img" : "../assets/projects/networktree.png",
             "link" : "/network-tree"
         },
         {
